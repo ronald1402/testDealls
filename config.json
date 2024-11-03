@@ -1,0 +1,22 @@
+{
+  "log": {
+    "level": "debug"
+  },
+  "http_server": {
+    "port": ":8100"
+  },
+  "database": {
+    "max_reconnect_retry": 5,
+    "mysql": {
+      "host": "127.0.0.1",
+      "port":  3306,
+      "schema":  "test",
+      "max_open_conn": 100,
+      "max_conn_life_time": 1,
+      "username": "root",
+      "password": ""
+    },
+    "context_timeout_in_ms": 30000
+  },
+  "secret" : "your-strong-secret-key"
+}
