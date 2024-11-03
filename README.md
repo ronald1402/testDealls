@@ -86,7 +86,7 @@ To test the application, you can use the provided Postman collection. Follow the
     - Drag and drop the Postman collection file, or click on **Upload Files** to select it from your file system.
     - Click on **Import** to add the collection to Postman.
     - 
-4**Run the Requests**:
+4.  **Run the Requests**:
     - Navigate to the imported collection in the left sidebar.
     - Click on the individual requests to test the endpoints
     - Adjust any parameters or body data as necessary, then click **Send** to execute the request.
